@@ -26,6 +26,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Hello from deploy & from branch
+    - name: Helloo from deploy & from branch
       run: |
         echo "Hello from deploy & from ${GITHUB_REF##*/}"
